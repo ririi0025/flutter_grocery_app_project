@@ -97,7 +97,7 @@ class _ShopState extends State<Shop> {
                             child: ClipRRect(
                               borderRadius: BorderRadius.circular(10),
                               child: Image.asset(
-                                'image/product$index.jpg',
+                                'image/product$index.png',
                                 fit: BoxFit.cover,
                                 errorBuilder: (context, error, stackTrace) {
                                   return const Center(
@@ -157,3 +157,4 @@ class _ShopState extends State<Shop> {
     );
   }
 }
+
